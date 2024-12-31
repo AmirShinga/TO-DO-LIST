@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, white, black);
+    padding: 10px;
+
+}
+.contain {
+    width: 100%;
+    max-width: 540px;
+    background: rgb(37, 33, 33);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+    
+    
+}
+h1 {
+    color: rgb(121, 121, 122);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+          
+}
+#listItem :hover {
+    color: blue;
+
+}
+#adding {
+    background-color: rgb(97, 86, 86);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+    transition: padding 3000ms;
+    transition: color 3000ms;
+    
+    
+}
+#myinput {
+    padding: 6px;
+    flex: 1;    
+    border: none;
+    outline: none;
+}
+
+li  {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: color 1000ms;
+
+}
+#adding:hover {
+    background-color: rgb(231, 231, 231);
+    color:rgb(37, 33, 33);
+    padding: 4px;
+}
+li:hover {
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+    
+
+    
+}
+.checked {
+    text-decoration: line-through;
+}
+ul li span{
+    position: relative;
+    text-size-adjust: 17px;
+    right: -110px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover {
+    background: rgb(255, 255, 255);
+    padding: 0px 4px 0px 4px ;
+}
